@@ -22,7 +22,22 @@ This operation says that
 * The last reduction -273.15 converts the output from Kelvin into degree Celsius
 
 ## Demonstration of Refrigerant Property Calculation
+To calculate saturation pressure of refrigerant "HFC-134a" at 26 degree Celcius, after installation, do the following in Microsoft Excel,
 
+<p align="center">
+<img src="/Animation02.gif" width="500">
+</p>
+
+This operation says that
+* You are using *PropsSI* formula in CoolProp to calculate refrigerant properties in Microsoft Excel
+* Your '"P"' in the 1st entry implies that you want pressure values in Pa
+* Your '"T"' in the 2nd entry implies that you are entering temperature of the refrigerant as the first input value
+* Your '26+273.15' in the 3rd entry implies that you are converting 26 degree Celcius into Kelvin before entry
+* Your '"Q"' in the 4th entry implies that your second quantitative input is quality of the refrigerant, ranging from 0 to 1. 0 means saturated liquid, and 1 means saturated vapor. Anything in between implies the mass proportion of vapor in the liquid-vapor mixture.
+* Your '1' in the 5th entry implies that your second input value is 1 - you are calculating as if the refrigerant is a saturated vapor.
+* Your '"R134a"' in the 6th entry implies refrigerant "HFC-134a". Please turn the prefix "HFC", "HCFC", etc. into "R" and remove the "-" before using the refrigerant code in the formula.
+* The last division converts the output from Pa into kPa.
+* 
 ## Installation Procedure
 To install the software, first, download the Windows installer of CoolProp [here](https://sourceforge.net/projects/coolprop/files/CoolProp/7.2.0/Installers/Windows/CoolProp_v7.2.0.0.exe/download?use_mirror=ixpeering)
 
@@ -53,6 +68,8 @@ Click "Next". You may see something like
 </p>
 
 If you do, click "Skip this file (not recommended)". Open your Microsoft Excel to try it now!
+
+## Other combinations of entries
 
 # Disclaimer
 This document is written on 2025/11/16. It does not guarantee that it would work with versions on CoolProp after this date. It is also not responsible for any damages that are done due to the use of the guide.
