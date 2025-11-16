@@ -69,7 +69,20 @@ Click "Next". You may see something like
 
 If you do, click "Skip this file (not recommended)". Open your Microsoft Excel to try it now!
 
-## Other combinations of entries
+## Other example combinations of entries
+There are also other combination of entries in the formula for other variables
+
+### HAPropsSI examples for psychrometric property calculation
+* HAPropsSI("D", "T", 20+273.15, "w", 0.01, "P", 100*1000) - Outputing dewpoint in Kelvin using air dry-bulb temperature at 20 degree Celcius, specific humidity ratio at 0.01 kg-of-vapor/kg-of-dry-air, and atmospheric pressure at 1 bar
+* HAPropsSI("H", "T", 20+273.15, "B", 18+273.15, "P", 100*1000) - Outputing air-water enthlapy in J/kg using air dry-bulb temperature at 20 degree Celcius, wet-bulb temperature at 18 degree Celcius, and atmospheric pressure at 1 bar
+* HAPropsSI("W", "T", 21+273.15, "D", 18+273.15, "P", 100*1000) - Outputing specific humidity ratio in Kelvin using air dry-bulb temperature at 21 degree Celcius, dewpoint at 18 degree Celcius, and atmospheric pressure at 1 bar
+
+### PropsSI examples for refrigerant property calculation
+* PropsSI("H", "T", 20+273.15, "P", 1000*1000, "R410A") - Outputing enthalpy of refrigerant "R-410A" in J/kg using temperature at 20 degree Celcius, pressure at 1000 kPa
+* PropsSI("T", "P", 300*1000, "Q", 0, "R290") - Outputing saturated liquid temperature of refrigerant "HC-290" in Kelvin at pressure at 300 kPa
+* 23 - (PropsSI("T", "P", 2500*1000, "Q", 1, "R32")-273.15) - Outputing superheat of refrigerant "HFC-32" when its temperature is 23 degree Celcius and its pressure is 2500 kPa
+
+You can reference [here](https://coolprop.org/coolprop/HighLevelAPI.html#parameter-table) for syntax of the letters and other possible combinations of calculation or [here](https://coolprop.org/fluid_properties/PurePseudoPure.html#list-of-fluids) for available types of refrigerants.
 
 # Disclaimer
 This document is written on 2025/11/16. It does not guarantee that it would work with versions on CoolProp after this date. It is also not responsible for any damages that are done due to the use of the guide.
