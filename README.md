@@ -1,8 +1,10 @@
 # Quick guide of CoolProp for non-programmers
-This document is written for non-programmers for their uses of [CoolProp](https://coolprop.org/coolprop/wrappers/Excel/index.html) for humidity and refrigerant property calculation quickly
+This document is written for non-programmers for their uses of [CoolProp](https://coolprop.org/) for humidity and refrigerant property calculation quickly.
+
+# Using CoolProp Online for refrigerant properties
+Just go to [CoolProp Online](https://ibell.pythonanywhere.com/) to try it out yourself for refrigerant properties! But it hasn't got the psychrometric property calculator in it.
 
 # Use of CoolProp with Microsoft Excel in Windows
-
 ## Demonstration of Humidity Property Calculation
 To calculate web-bulb temperature in degree Celcius with an air dry-bulb temperature at 26 degree Celcius and 60% relative humidity, after installation, do the following in Microsoft Excel,
 
