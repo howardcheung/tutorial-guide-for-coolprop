@@ -7,7 +7,7 @@ This document is written for non-programmers for their uses of [CoolProp](https:
 To calculate web-bulb temperature in degree Celcius with an air dry-bulb temperature at 26 degree Celcius and 60% relative humidity, after installation, do the following in Microsoft Excel,
 
 <p align="center">
-<img src="/Screenshot 2025-11-16 211402.gif" width="500">
+<img src="/Animation01.gif" width="500">
 </p>
 
 This operation says that
