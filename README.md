@@ -48,13 +48,13 @@ Run the downloaded .exe file with administrator access for proper installation. 
 When you run the downloaded .exe file, you may encounter "Windows protected your PC" notice. Please click "More Info and "Run Anyway" to execute the installer.
 
 <p align="center">
-<img src="/Screenshot 2025-11-16 211402.png" width="500">
+<img src="/Screenshot 2025-11-16 211402.png" width="250">
 </p>
 
 Once you run the executable, you will see this page.
 
 <p align="center">
-<img src="/Screenshot 2025-11-16 211727.png" width="500">
+<img src="/Screenshot 2025-11-16 211727.png" width="250">
 </p>
 
 You *only* choose other options if you 
@@ -64,7 +64,7 @@ You *only* choose other options if you
 Click "Next". You may see something like
 
 <p align="center">
-<img src="/Screenshot 2025-11-16 212000.png" width="500">
+<img src="/Screenshot 2025-11-16 212000.png" width="250">
 </p>
 
 If you do, click "Skip this file (not recommended)". Open your Microsoft Excel to try it now!
