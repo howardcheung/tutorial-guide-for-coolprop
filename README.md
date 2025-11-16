@@ -1,4 +1,4 @@
-# Quick guide for CoolProp
+# Quick guide of CoolProp for non-programmers
 This document is written for non-programmers for their uses of [CoolProp](https://coolprop.org/coolprop/wrappers/Excel/index.html) for humidity and refrigerant property calculation quickly
 
 # Use of CoolProp with Microsoft Excel in Windows
