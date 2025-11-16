@@ -4,7 +4,22 @@ This document is written for non-programmers for their uses of [CoolProp](https:
 # Use of CoolProp with Microsoft Excel in Windows
 
 ## Demonstration of Humidity Property Calculation
-To calculate web-bulb temperature in degree Celcius with an air dry-bulb temperature at 26 degree Celcius, after installation, 
+To calculate web-bulb temperature in degree Celcius with an air dry-bulb temperature at 26 degree Celcius and 60% relative humidity, after installation, do the following in Microsoft Excel,
+
+<p align="center">
+<img src="/Screenshot 2025-11-16 211402.gif" width="500">
+</p>
+
+This operation says that
+* You are using *HAPropsSI* formula in CoolProp to calculate psychrometric properties in Microsoft Excel
+* Your '"B"' in the 1st entry implies that you want wetulb temperature in Kelvin
+* Your '"T"' in the 2nd entry implies that you are entering dry-bulb temperature in Kelvin as the first input value
+* Your '26+273.15' in the 3rd entry implies that you are converting 26 degree Celcius into Kelvin before entry
+* Your '"R"' in the 4th entry implies that your second quantitative input is relative humidity ranged between 0 and 1
+* Your '60%' in the 5th entry implies that your second input value is relative humidity at 60%
+* Your '"P"' in the 6th entry implies atmospheric pressure will be entered. This is a must.
+* Your last entry is 101325, implying standard atmospheric pressure at 101325 Pa
+* The last reduction -273.15 converts the output from Kelvin into degree Celsius
 
 ## Demonstration of Refrigerant Property Calculation
 
