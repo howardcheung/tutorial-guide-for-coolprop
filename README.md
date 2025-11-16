@@ -22,7 +22,7 @@ This operation says that
 * The last reduction -273.15 converts the output from Kelvin into degree Celsius
 
 ## Demonstration of Refrigerant Property Calculation
-To calculate saturation pressure of refrigerant "HFC-134a" at 26 degree Celcius, after installation, do the following in Microsoft Excel,
+To calculate saturation pressure of refrigerant "HFC-134a" at 26 degree Celcius in kPa, after installation, do the following in Microsoft Excel,
 
 <p align="center">
 <img src="/Animation02.gif" width="500">
@@ -37,7 +37,7 @@ This operation says that
 * Your '1' in the 5th entry implies that your second input value is 1 - you are calculating as if the refrigerant is a saturated vapor.
 * Your '"R134a"' in the 6th entry implies refrigerant "HFC-134a". Please turn the prefix "HFC", "HCFC", etc. into "R" and remove the "-" before using the refrigerant code in the formula.
 * The last division converts the output from Pa into kPa.
-* 
+
 ## Installation Procedure
 To install the software, first, download the Windows installer of CoolProp [here](https://sourceforge.net/projects/coolprop/files/CoolProp/7.2.0/Installers/Windows/CoolProp_v7.2.0.0.exe/download?use_mirror=ixpeering)
 
